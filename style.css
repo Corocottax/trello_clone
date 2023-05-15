@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  font-family: 'Rubik', sans-serif;
+}
+
+:root {
+  --primary: #0079be;
+  --list: #f1f2f4;
+  --task: #ffffff;
+}
+
+#app {
+  min-height: 100vh;
+  background-color: var(--primary);
+}
+
+#lists {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+  min-height: 80vh;
+  /* overflow-x: scroll; */
+}
